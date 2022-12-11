@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- LINK FAVICON -->
-  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/logo-2.png" type="image/x-icon">
   <!-- LINK FONTAWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- LINK FUENTE -->
@@ -17,54 +17,66 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <section class="hero">
-    <!-- <div class="main__width"> -->
-      <!-- <header class="header"> -->
-        <div class="header__logo">
-          <img src="img/logo.png" alt="" class="header__logo--img">
+  <header class="header">
+    <div class="header__container">
+      <nav class="nav">
+        <div class="nav__logo">
+          <img src="img/logo.png" alt="" class="nav__logo--img">
         </div>
-        <nav class="nav">
-          <div class="nav__hamb">
+        <div class="nav__container">
+          <div class="nav__container--menu">
             <span></span>
             <span></span>
             <span></span>
           </div>
-          <ul class="nav__list">
-            <li class="nav__item"><a href="index2.html" class="nav__link">Inicio</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Poyectos</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Acerca de Mí</a></li>
-            <li class="nav__item btn"><a href="#" class="nav__link">Contacto</a></li>
+          <ul class="nav__container--list">
+            <li class="nav__container--items"><a href="#" class="nav__container--link">Inicio</a></li>
+            <li class="nav__container--items"><a href="#" class="nav__container--link">Acerca de</a></li>
+            <li class="nav__container--items"><a href="#" class="nav__container--link">Proyectos</a></li>
+            <li class="nav__container--items nav__container--contact"><a href="#" class="nav__container--link">Contacto</a></li>
           </ul>
-        </nav>
-      </header>
-
-      <div class="container">
-        <div class="hero__info">
-          <h3 class="hero__title">Buenas a todos!</h3>
-          <h1 class="hero__title--2">Soy <span class="input"></span></h1>
-          <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde ducimus a aliquam totam neque blanditiis fuga eius veritatis explicabo quasi, aspernatur asperiores suscipit odio, itaque ipsam animi at consectetur dolore eligendi molestias placeat provident impedit. Recusandae dolor eum excepturi.</p>
-          <!-- <div class="hero__info--2">
-            <a href="#" class="hero__link"><i class="fa-brands fa-html5"></i></a>
-            <a href="#" class="hero__link"><i class="fa-brands fa-css3-alt"></i></a>
-            <a href="#" class="hero__link"><i class="fa-brands fa-js"></i></a>
-            <a href="#" class="hero__link"><i class="fa-brands fa-sass"></i></a>
-            <a href="#" class="hero__link"><i class="fa-brands fa-node-js"></i></a>
-          </div> -->
-          <button type="button" class="hero__btn">Más Sobre mí</button>
         </div>
-      </div>
+      </nav>
+      <section class="header__container--container">
+        <div class="header__container--info">
+          <h2 class="header__container--subtitle">Buenas, mi nombre es <span>Franco Ursino</span></h2>
+          <h1 class="header__container--title">Soy <span class="input"></span></h1>
+          <button class="header__container--btn">Mis proyectos</button>
+          <!-- <p class="header__container--text"></p> -->
+        </div>
+        <div class="CubeNav">
+          <div class="navigation">
+            <span style="--i:0;--x:-1;--y:0;"><ion-icon name="logo-nodejs"></ion-icon></span>
+            <span style="--i:1;--x:1;--y:0;"><ion-icon name="logo-python"></ion-icon></span>
+            <span style="--i:2;--x:0;--y:-1;"><ion-icon name="logo-css3"></ion-icon></span>
+            <span style="--i:3;--x:0;--y:1;"><ion-icon name="logo-javascript"></ion-icon></span>
+            <span style="--i:4;--x:-1;--y:1;"><ion-icon name="logo-react"></ion-icon></span>
+            <span style="--i:5;--x:-1;--y:-1;"><ion-icon name="logo-html5"></ion-icon></span>
+            <span style="--i:6;--x:1;--y:-1;"><ion-icon name="logo-sass"></ion-icon></span>
+            <span style="--i:7;--x:1;--y:1;"><ion-icon name="logo-figma"></ion-icon></span>
+          </div>
+          <div class="close">
+            <ion-icon name="close-outline"></ion-icon>
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
+  </header>
+
 
 
   <script type="text/javascript" src="js/nav.js"></script>
-  <!-- CDN TYPED JS -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- LINK TYPED JS -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script>
     var typed = new Typed('.input', {
-      strings:["Franco Ursino.","Diseñador Gráfico","FrontEnd Developer."],
-      typeSpeed: 80,
-      backSpeed: 70,
+      strings:[ "FrontEnd Developer", "Diseñador Gráfico." ],
+      typeSpeed: 70,
+      backSpeed: 50,
       loop:true
     });
   </script>

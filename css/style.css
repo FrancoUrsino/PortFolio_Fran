@@ -35,11 +35,11 @@ body {
   padding: 0 20px;
 }
 .header__container--container {
-  margin-top: 12em;
+  margin-top: 10em;
   margin-right: 0;
 }
 .header__container--subtitle {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 300;
 }
@@ -49,13 +49,13 @@ body {
   font-weight: 400;
 }
 .header__container--title {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 2.2rem;
   font-weight: 500;
 }
 .header__container--title span {
   color: rgb(169, 103, 169);
-  text-shadow: 1px 0 3px white;
+  text-shadow: 1px 0 3px rgb(255, 255, 255);
 }
 .header__container--btn {
   color: rgb(169, 103, 169);
@@ -72,7 +72,7 @@ body {
 .header__container--btn:hover {
   background-color: rgb(169, 103, 169);
   border: 2px solid transparent;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .header .CubeNav {
   position: relative;
@@ -166,6 +166,7 @@ body {
   justify-content: center;
   justify-self: center;
   cursor: pointer;
+  padding-top: 5px;
 }
 .nav__container--menu {
   width: 35px;
@@ -233,7 +234,7 @@ body {
 }
 .nav__container--link {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 30px;
   font-size: 20px;
   font-weight: 600;
@@ -261,7 +262,7 @@ body {
 }
 .nav__container--contact a:hover {
   background: rgb(169, 103, 169);
-  color: white;
+  color: rgb(255, 255, 255);
   border: 2px solid transparent;
   transition: 0.6s;
 }
