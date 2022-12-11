@@ -14,7 +14,7 @@
     padding: 0 20px;
 
     &--container{
-      margin-top: 12em;
+      margin-top: 10em;
       margin-right: 0;
     }
 
@@ -26,14 +26,13 @@
       & span{
         color: $p-color;
         font-size: 1.3rem;
-        text-shadow: 1px 0 3px $s-color;
         font-weight: 400;
       }
     }
 
     &--title{
       color: $s-color;
-      font-size: 2rem;
+      font-size: 2.2rem;
       font-weight: 500;
 
       & span{
@@ -49,7 +48,7 @@
       border: 2px solid $p-color;
       border-radius: 25px;
       padding: 5px 15px 9px;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       margin-top: 20px;
       text-transform: uppercase;
       transition: .5s;
@@ -128,7 +127,7 @@
   .CubeNav .navigation span ion-icon{
     transition: .5s;
     font-size: 0em;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .CubeNav .navigation.active span ion-icon{
