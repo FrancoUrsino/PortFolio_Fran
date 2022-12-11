@@ -1,7 +1,7 @@
 .header{
   width: 100%;
-  height: 100vh;
-  min-height: 100vh;
+  height: 80vh;
+  min-height: 80vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpg);
   background-size: cover;
   background-position: right;
@@ -14,14 +14,15 @@
     padding: 0 20px;
 
     &--container{
-      margin-top: 10em;
+      margin-top: 13em;
       margin-right: 0;
     }
 
     &--subtitle{
       color: $s-color;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 300;
+      margin-bottom: 30px;
 
       & span{
         color: $p-color;
@@ -38,6 +39,7 @@
       & span{
         color: $p-color;
         text-shadow: 1px 0 3px $s-color;
+        text-transform: uppercase;
       }
     }
 
@@ -49,7 +51,7 @@
       border-radius: 25px;
       padding: 5px 15px 9px;
       font-size: 1.2rem;
-      margin-top: 20px;
+      margin-top: 2em;
       text-transform: uppercase;
       transition: .5s;
 
