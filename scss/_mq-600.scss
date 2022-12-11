@@ -1,0 +1,64 @@
+@media (min-width: 600px){
+
+  /*-----------------------------------*/
+  /*------------- NAVBAR --------------*/
+  /*-----------------------------------*/
+
+  .nav{
+    flex-wrap: wrap;
+    padding-top: 0;
+    backdrop-filter: blur(3px);
+
+    &__container{
+
+      &--menu{
+        display: none;
+      }
+
+      &--list{
+        display: flex;
+        align-items: unset;
+        justify-content: flex-end;
+        right: unset;
+        top: unset;
+        z-index: 0;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
+        backdrop-filter: unset;
+      }
+
+      &--items{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1em;
+      }
+
+      &--link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+      }
+
+      &--contact{
+        display: flex;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  /*-----------------------------------------*/
+  /*---------------- HEADER -----------------*/
+  /*-----------------------------------------*/
+
+  .header__container--container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

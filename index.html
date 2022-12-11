@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- LINK FAVICON -->
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <!-- LINK FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- LINK FUENTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- LINK CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="hero">
+    <!-- <div class="main__width"> -->
+      <!-- <header class="header"> -->
+        <div class="header__logo">
+          <img src="img/logo.png" alt="" class="header__logo--img">
+        </div>
+        <nav class="nav">
+          <div class="nav__hamb">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item"><a href="index2.html" class="nav__link">Inicio</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Poyectos</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Acerca de Mí</a></li>
+            <li class="nav__item btn"><a href="#" class="nav__link">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <div class="hero__info">
+          <h3 class="hero__title">Buenas a todos!</h3>
+          <h1 class="hero__title--2">Soy <span class="input"></span></h1>
+          <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde ducimus a aliquam totam neque blanditiis fuga eius veritatis explicabo quasi, aspernatur asperiores suscipit odio, itaque ipsam animi at consectetur dolore eligendi molestias placeat provident impedit. Recusandae dolor eum excepturi.</p>
+          <!-- <div class="hero__info--2">
+            <a href="#" class="hero__link"><i class="fa-brands fa-html5"></i></a>
+            <a href="#" class="hero__link"><i class="fa-brands fa-css3-alt"></i></a>
+            <a href="#" class="hero__link"><i class="fa-brands fa-js"></i></a>
+            <a href="#" class="hero__link"><i class="fa-brands fa-sass"></i></a>
+            <a href="#" class="hero__link"><i class="fa-brands fa-node-js"></i></a>
+          </div> -->
+          <button type="button" class="hero__btn">Más Sobre mí</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script type="text/javascript" src="js/nav.js"></script>
+  <!-- CDN TYPED JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed('.input', {
+      strings:["Franco Ursino.","Diseñador Gráfico","FrontEnd Developer."],
+      typeSpeed: 80,
+      backSpeed: 70,
+      loop:true
+    });
+  </script>
+</body>
+</html>
