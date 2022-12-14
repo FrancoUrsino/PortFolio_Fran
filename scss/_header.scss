@@ -1,7 +1,7 @@
 .header{
   width: 100%;
-  height: 80vh;
-  min-height: 80vh;
+  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header.jpg);
   background-size: cover;
   background-position: right;
@@ -14,7 +14,7 @@
     padding: 0 20px;
 
     &--container{
-      margin-top: 13em;
+      margin-top: 5em;
       margin-right: 0;
     }
 
@@ -33,7 +33,7 @@
 
     &--title{
       color: $s-color;
-      font-size: 2.2rem;
+      font-size: 1.8rem;
       font-weight: 500;
 
       & span{
@@ -41,6 +41,14 @@
         text-shadow: 1px 0 3px $s-color;
         text-transform: uppercase;
       }
+    }
+
+    &--text{
+      font-size: 1.1rem;
+      color: $s-color;
+      letter-spacing: .2rem;
+      max-width: 400px;
+      padding-top: 25px;
     }
 
     &--btn{
@@ -135,11 +143,6 @@
   .CubeNav .navigation.active span ion-icon{
     font-size: 2.5rem;
   }
-  
-  // .CubeNav .navigation.active span:hover ion-icon{
-  //   color: rgba(236, 123, 232, 0.4);
-  //   filter: drop-shadow(0 0 2px rgba(236, 123, 232, 0.4));
-  // }
   
   .CubeNav .navigation ~ .close ion-icon{
     scale: 0;
